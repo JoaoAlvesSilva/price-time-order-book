@@ -5,9 +5,13 @@ If two orders have the same price, then the order made first should have priorit
 Each order contains the following fields:
 
 order ID
+
 price
+
 size
+
 bid_or_ask
+
 category
 
 There are two categories of an order: Addition or Modification. An addition is when we add a new order, and a modification is when we modify a preexisting order. A modification can only change the size of a previous order,
